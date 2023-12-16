@@ -1,24 +1,22 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-.left-box {
-    border: purple solid 1px;
+.left-box, .right-box {
     border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    justify-content: center;
     padding: 50px;
     padding-top: 25px;
     text-align: center;
 }
 
+.left-box {
+    border: purple solid 1px;
+}
+
 .right-box {
     border: green solid 1px;
-    border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    justify-content: center;
-    padding: 50px;
-    padding-top: 25px;
-    text-align: center;
+}
+
+
+.container {
+    display: grid;
 }
