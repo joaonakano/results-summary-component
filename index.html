@@ -7,24 +7,29 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
     <div class="left-box">
-      <div>
+      <div class="title">
         <h3>Your Result</h3>
       </div>
-      <div>
-        <h1>76</h1>
-      </div>
-      <div>
-        of 100
+      <div class="circle">
+        <div class="userscore">
+          <h1>76</h1>
+        </div>
+        <div class="maxscore">
+          of 100
+        </div>
       </div>
       <div>
         <h2>Great</h2>
       </div>
-      <div>
+      <div class="higherthantext">
         <p>You scored higher than 65% of the people who have taken these tests.</p>
       </div>
     </div>
@@ -77,9 +82,10 @@
       </div>
     </div>  
   </div>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/joaonakano" target="_blank">João Nakano</a>.
   </div>
 </body>
 </html>

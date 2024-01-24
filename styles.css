@@ -1,22 +1,68 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; font-family: 'Hanken Grotesk', sans-serif;; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+body { font-family: 'Hanken Grotesk', sans-serif; }
+
 .left-box, .right-box {
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 50px;
     padding-top: 25px;
     text-align: center;
+    width: 12rem;
+    height: 20rem;
 }
 
 .left-box {
-    border: purple solid 1px;
+    background-image: linear-gradient(#6661f1, #332CEB);
+    color: white;
+}
+
+.maxscore {
+    color: #9b82e7a6;
+    font-weight: bolder;
+}
+
+.left-box .title {
+    color: #D4C7FF;
+}
+
+.higherthantext {
+    color: #aea2d8;
+    font-weight: 500;
+}
+
+.left-box .userscore {
+    font-size: 150%;
+    padding-top: 10px;
 }
 
 .right-box {
-    border: green solid 1px;
+    box-shadow: 10px 5px 30px #504afd17;
+}
+
+.items > div {
+    display: flex;
+}
+
+.function {
+    width: 50%;
+}
+
+.score {
+    width: 50%;
+}
+
+.circle {
+    margin-left: 12%;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(#332CEB, #534ee760);
 }
 
 
 .container {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
